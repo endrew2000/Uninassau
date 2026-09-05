@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Login</title>
+    
+</head>
+
+<body>
+    
+    <header>
+        <img id="img" src="https://ps.w.org/login-customizer/assets/icon-256x256.png?rev=2455454" alt="login">
+        <h1 id="titulo"> Acessar Plataforma </h1>
+
+    </header>
+
+<main>
+
+    <form action="/enviar" method="post">
+    
+        <section id="user">   
+
+            <div id="usuario">
+
+                <label for="nome"> Nome Completo: </label> 
+                <input class="forma" type="text" id="nome" name="nome" placeholder="Digite seu Nome Completo" minlength="10" maxlength="100" required> 
+
+            </div>
+
+        </section>
+
+
+        <section id="email">   
+
+            <div id="email_usuario">
+
+                <label for="email"> Email: </label> 
+                <input class="forma" type="email" id="email" name="email" placeholder="Digite seu email principal" required> 
+
+            </div>
+
+        </section>
+
+        <section id="senha">   
+
+            <div id="senha_usuario">
+
+                <label for="senha"> Senha: </label> 
+                <input class="forma" type="password" id="senha" name="senha" placeholder="Digite uma senha" minlength="8" required> 
+
+            </div>
+
+        </section>
+
+        <button id="botao" type="submit">Enviar</button>
+
+    </form>   
+
+</main>
+
+</body>
+</html>

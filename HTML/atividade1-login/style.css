@@ -1,0 +1,46 @@
+img {
+    
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: #f0f2f5;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+#titulo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: rem 320px;
+    color: white;
+}
+
+label {
+
+    font-family: inherit; 
+    
+}
+
+.forma {
+
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+body {
+
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #28a745;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
