@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Cadastro </title>
+
+</head>
+
+<body>
+    
+<main>
+    
+    <header> 
+
+        <section>
+
+        <div class="topico_topo">
+
+            <h1> Crie sua Conta </h1>
+            <p class="sub_topico"> <strong> Necessário o correto preenchimento dos campos para continuar. </strong> </p>
+
+        </div>
+
+        </section>
+
+    </header>
+
+
+    <form action="/enviar" method="post">  
+
+        <section>
+
+                <div>
+
+                    <label for="nome_completo">Nome Completo: </label>
+                    <input class="topico_nome" type="text" id="nome_completo" name="nome_completo" placeholder="Digite seu nome completo" required>
+
+                </div>
+
+        </section>
+
+        <section>
+
+                <div>
+
+                    <label for="senha">Senha: </label>
+                    <input class="topico_senha" type="password" id="senha" name="senha" placeholder="Digite uma senha" required minlength="8">
+
+                </div>
+
+        </section>
+
+        <section>
+
+                <div>
+
+                    <label for="email">Email: </label>
+                    <input class="topico_email" type="email" id="email" name="email" placeholder="Digite seu e-mail" required >
+                    
+                </div>
+
+        </section>
+
+        <section>
+
+            <div class="conteiner">
+
+                <div class="topico_data">
+                    
+                    <label for="data">Data:</label> 
+                    <input type="date" id="data" name="data" placeholder="Data de Nascimento" required> 
+
+                </div>
+
+                <div>
+
+                    <label for="topico_genero" class="topico_gen"> Gênero: </label> 
+
+                    <select name="topico_genero" id="topico_genero" required>
+
+                        <option value="" disabled selected> Selecione </option>
+                        <option value="masculino"> Masculino </option>
+                        <option value="feminino"> Feminino </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="topico_rodape">
+
+            <div>
+
+                <input type="checkbox" id="termos" required>
+                <label for="termos"> Li e concordo com os <a href=""> Termos de Uso </a> e <a href=""> Política de Privacidade</a>.</label>
+
+            </div>
+
+        </footer>
+
+        <button id="botao" class="butao" type="submit"> Cadastrar </button>
+    
+    </form>
+
+    <footer>
+
+        <p> Já tem uma conta? <a href=""> Entrar </a></p>
+
+    </footer>
+
+</main>
+
+</body>
+
+</html>

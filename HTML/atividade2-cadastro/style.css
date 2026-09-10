@@ -1,0 +1,211 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef2f6; 
+    padding: 16px;
+
+}
+
+main {
+
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 36px 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+
+}
+
+.topico_topo {
+
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.topico_topo h1 {
+
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e293b; 
+    margin-bottom: 6px;
+
+}
+
+.sub_topico {
+
+    font-size: 13px;
+    color: #64748b; 
+
+}
+
+
+.campo {
+
+    margin-bottom: 16px;
+
+}
+
+
+label {
+
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select {
+
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #1e293b;
+    background-color: #f8fafc; 
+    border: 1.5px solid #cbd5e1; 
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+
+}
+
+
+input:focus,
+select:focus {
+
+    background-color: #ffffff;
+    border-color: #3b82f6; 
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+
+}
+
+.conteiner {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.topico_data,
+.topico_genero {
+    flex: 1;
+    min-width: 0;
+}
+
+.campo_termos {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 18px 0 22px 0;
+
+}
+
+.campo_termos input[type="checkbox"] {
+
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #2563eb; 
+
+}
+
+.campo_termos label {
+
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    color: #64748b;
+    margin-bottom: 0;
+
+}
+
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+#botao {
+
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb; 
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+
+}
+
+#botao:hover {
+
+    background-color: #1d4ed8; 
+
+}
+
+#botao:active {
+
+    transform: scale(0.98); 
+
+}
+
+
+.topico_rodape div,
+.campo_termos {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 16px 0 20px 0;
+}
+
+
+.topico_rodape input[type="checkbox"],
+.campo_termos input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+.topico_rodape label,
+.campo_termos label {
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+    color: #64748b;
+    line-height: 1.4;
+    cursor: pointer;
+}
